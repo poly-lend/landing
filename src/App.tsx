@@ -6,6 +6,7 @@ import TradersLendersSection from '@/components/home/tradersLendersSection'
 import HowItWorksSection from '@/components/home/howItWorksSection'
 import RisksSection from '@/components/home/risksSection'
 import FaqSection from '@/components/home/faqSection'
+import StatsSection from '@/components/home/statsSection'
 
 export default function App() {
   return (
@@ -15,6 +16,7 @@ export default function App() {
         <div className="flex flex-col items-center justify-center gap-1 px-4 sm:px-6 lg:px-8 mx-auto">
           <HeroSection />
           <main className="space-y-10">
+            <StatsSection />
             <WhySection />
             <TradersLendersSection />
             <HowItWorksSection />
